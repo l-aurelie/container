@@ -1,0 +1,9 @@
+#! /bin/zsh
+
+c++ -D NS=std perfs.cpp -o std
+c++ -D NS=ft perfs.cpp -o ft
+echo "with STD : "; 
+time ./std 41564
+
+echo "with FT : "; 
+time ./ft 41564
