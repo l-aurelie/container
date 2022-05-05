@@ -1,22 +1,22 @@
 #include <iostream>
 #include <string>
 
-#include "reverse_iterator.hpp"
+#include "../reverse_iterator.hpp"
 
 #include <vector>
-#include "vector.hpp"
-#include "vector_iterator.hpp"
-#include "vector_iterator.hpp"
-#include "vector_const_iterator.hpp"
+#include "../vector.hpp"
+#include "../vector_iterator.hpp"
+#include "../vector_iterator.hpp"
+#include "../vector_const_iterator.hpp"
 
 #include <map>
-#include "map.hpp"
-#include "map_iterator.hpp"
-#include "map_iterator.hpp"
-#include "map_const_iterator.hpp"
+#include "../map.hpp"
+#include "../map_iterator.hpp"
+#include "../map_iterator.hpp"
+#include "../map_const_iterator.hpp"
 
 #include <stack>
-#include "stack.hpp"
+#include "../stack.hpp"
 
 #define RED "\e[0;31m"
 #define GRN "\e[0;32m"

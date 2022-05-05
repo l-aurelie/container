@@ -5,9 +5,9 @@
 	#include <map>
 	#include <stack>
 	#include <vector>
-	#include "map.hpp" 
-	#include "vector.hpp"
-	#include "stack.hpp"
+	#include "../map.hpp" 
+	#include "../vector.hpp"
+	#include "../stack.hpp"
 //	namespace ft = std;
 //#else
 //	#include <map.hpp>

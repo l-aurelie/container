@@ -1,5 +1,5 @@
 NAME = container
-SRC = tests.cpp
+SRC = ./test/tests.cpp
 OBJ = ${SRC:.cpp=.o}
 INCLUDES = vector.hpp vector_iterator.hpp iterator_traits.hpp reverse_iterator.hpp enable_if.hpp vector_iterator.hpp vector_const_iterator.hpp algorithm.hpp map_const_iterator.hpp map_iterator.hpp map.hpp pair.hpp stack.hpp tree.hpp
 FLAGS = -Wall -Wextra -Werror   -std=c++98 
